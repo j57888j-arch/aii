@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "studyhelper"
+version = "0.1.0"
+description = "Uzbekistan-focused Telegram AI assistant"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "Proprietary project; third-party patterns are attributed in README.md" }
+authors = [{ name = "StudyHelper contributors" }]
+dependencies = [
+  "aiogram==3.31.0",
+  "fastapi==0.128.2",
+  "uvicorn[standard]==0.54.0",
+  "SQLAlchemy==2.0.50",
+  "asyncpg==0.32.0",
+  "alembic==1.18.4",
+  "redis==8.1.0",
+  "pydantic==2.13.5",
+  "pydantic-settings==2.14.1",
+  "httpx==0.28.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==9.0.2",
+  "pytest-asyncio==1.4.1",
+  "ruff==0.17.3",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["app", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

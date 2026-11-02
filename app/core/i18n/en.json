@@ -1,0 +1,16 @@
+{
+  "choose_language": "🌐 <b>Choose your language</b>\n\nWhich language should we use?",
+  "choose_goal": "🎯 <b>What is your main goal?</b>\n\nWe will tailor the assistant setup to you.",
+  "goal_study": "📚 Study",
+  "goal_job": "💼 Job and CV",
+  "goal_code": "💻 Programming",
+  "onboarding_done": "✅ <b>Settings saved!</b>",
+  "home_phase1": "🤖 <b>StudyHelper is being prepared</b>\n\nOnboarding is complete. AI chat, translation, CV and other modes will be connected in later phases.\n\nLanguage: English | Time zone: Tashkent",
+  "welcome_back": "👋 <b>Welcome back to StudyHelper!</b>\n\nMain menu: /menu",
+  "menu_text": "🏠 <b>StudyHelper</b>\n\nThe Foundation phase is active. AI modes will be connected in the next phase.",
+  "blocked": "⛔️ Your account is temporarily restricted. Please contact an administrator.",
+  "too_fast": "⏳ You are sending requests too quickly. Please wait a moment and try again.",
+  "generic_error": "⚠️ Something went wrong. Please try again.",
+  "language_saved": "Language saved.",
+  "goal_saved": "Goal saved."
+}

@@ -1,0 +1,16 @@
+{
+  "choose_language": "🌐 <b>Tilni tanlang</b>\n\nQaysi tilda davom etamiz?",
+  "choose_goal": "🎯 <b>Maqsadingiz nima?</b>\n\nSizga mos yordamchi rejimlarini tayyorlaymiz.",
+  "goal_study": "📚 O‘qish",
+  "goal_job": "💼 Ish va rezyume",
+  "goal_code": "💻 Dasturlash",
+  "onboarding_done": "✅ <b>Sozlamalar saqlandi!</b>",
+  "home_phase1": "🤖 <b>StudyHelper tayyorlanmoqda</b>\n\nRo‘yxatdan o‘tish yakunlandi. AI chat, tarjima, rezyume va boshqa rejimlar keyingi bosqichlarda ulanadi.\n\nTil: O‘zbekcha | Vaqt zonasi: Toshkent",
+  "welcome_back": "👋 <b>StudyHelper’ga qaytdingiz!</b>\n\nAsosiy menyu: /menu",
+  "menu_text": "🏠 <b>StudyHelper</b>\n\nHozircha Foundation bosqichi ishlayapti. AI rejimlari keyingi bosqichda ulanadi.",
+  "blocked": "⛔️ Hisobingiz vaqtincha cheklangan. Yordam uchun administratorga murojaat qiling.",
+  "too_fast": "⏳ Juda tez yuboryapsiz. Biroz kutib qayta urinib ko‘ring.",
+  "generic_error": "⚠️ Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
+  "language_saved": "Til saqlandi.",
+  "goal_saved": "Maqsad saqlandi."
+}
